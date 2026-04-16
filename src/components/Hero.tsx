@@ -54,8 +54,8 @@ const Hero = () => {
                 <Mail className="w-5 h-5" />
                 Get in Touch
               </Button>
-              <Button size="lg" variant="secondary" className="gap-2">
-                View Projects
+              <Button asChild size="lg" variant="secondary" className="gap-2">
+                <a href="#projects">View Projects</a>
               </Button>
             </div>
 
@@ -75,12 +75,6 @@ const Hero = () => {
                 className="p-3 rounded-full bg-secondary hover:bg-secondary/80 transition-colors"
               >
                 <Linkedin className="w-6 h-6" />
-              </a>
-              <a
-                href="mailto:shambel5110@gmail.com"
-                className="p-3 rounded-full bg-secondary hover:bg-secondary/80 transition-colors"
-              >
-                <Mail className="w-6 h-6" />
               </a>
             </div>
           </div>
