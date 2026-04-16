@@ -7,28 +7,28 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative w-full flex items-center justify-center min-h-screen overflow-hidden  pt-0 mr-0"
       style={{
         backgroundImage: `linear-gradient(to bottom, hsl(var(--background) / 0.9), hsl(var(--background) / 0.95)), url(${heroBg})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      <div className="container max-w-6xl mx-auto px-6">
-        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
-          {/* Profile Image - Below on mobile, Left on desktop */}
-          <div className="order-2 lg:order-1 w-full lg:w-5/12 flex justify-center animate-fade-in">
+      <div className="container max-w-6xl mx-auto px-6 py-16">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-16">
+          {/* Profile Image */}
+          <div className="order-2 lg:order-1 w-full max-w-sm lg:w-5/12 flex justify-center animate-fade-in">
             <div className="relative">
               <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl"></div>
               <img
                 src={profileImg}
                 alt="Shanbel Kibre"
-                className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover border-4 border-primary/30 shadow-2xl"
+                className="relative w-80 h-100 md:w-90 md:h-100 rounded-full object-cover border-4 border-primary/30 shadow-2xl"
               />
             </div>
           </div>
 
-          {/* Hero Content - Above on mobile, Right on desktop */}
+          {/* Hero Content */}
           <div className="order-1 lg:order-2 w-full lg:w-7/12 text-center lg:text-left animate-fade-in">
             <div className="inline-block mb-4 px-4 py-2 bg-secondary/50 rounded-full border border-primary/20">
               <span className="text-sm text-muted-foreground">
@@ -50,10 +50,10 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start mb-8">
-              <Button size="lg" className="gap-2">
-                <Mail className="w-5 h-5" />
-                Get in Touch
+              <Button asChild size="lg" className="gap-2">
+                <a href="#contact">Get in Touch</a>
               </Button>
+
               <Button asChild size="lg" variant="secondary" className="gap-2">
                 <a href="#projects">View Projects</a>
               </Button>
