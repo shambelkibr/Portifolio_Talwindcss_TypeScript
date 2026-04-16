@@ -35,20 +35,20 @@ const Hero = () => {
                 Available for opportunities
               </span>
             </div>
-            
+
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
               Hi, I'm <span className="text-gradient">Shanbel Kibre</span>
             </h1>
-            
+
             <p className="text-xl md:text-2xl text-muted-foreground mb-4">
               Software Engineering Student
             </p>
-            
+
             <p className="text-base md:text-lg text-muted-foreground mb-8 max-w-2xl mx-auto lg:mx-0">
-              Building modern web applications with cutting-edge technologies. 
+              Building modern web applications with cutting-edge technologies.
               Passionate about creating elegant solutions to complex problems.
             </p>
-            
+
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start mb-8">
               <Button size="lg" className="gap-2">
                 <Mail className="w-5 h-5" />
@@ -58,10 +58,10 @@ const Hero = () => {
                 View Projects
               </Button>
             </div>
-            
+
             <div className="flex gap-4 justify-center lg:justify-start">
               <a
-                href="https://github.com"
+                href="https://github.com/shambelkibr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-secondary hover:bg-secondary/80 transition-colors"
@@ -69,7 +69,7 @@ const Hero = () => {
                 <Github className="w-6 h-6" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/shanbel-kibre-b5ab38369"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-secondary hover:bg-secondary/80 transition-colors"
@@ -77,7 +77,7 @@ const Hero = () => {
                 <Linkedin className="w-6 h-6" />
               </a>
               <a
-                href="mailto:shanbel@example.com"
+                href="mailto:shambel5110@gmail.com"
                 className="p-3 rounded-full bg-secondary hover:bg-secondary/80 transition-colors"
               >
                 <Mail className="w-6 h-6" />
@@ -86,7 +86,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      
+
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 border-2 border-primary rounded-full flex items-start justify-center p-2">
           <div className="w-1 h-3 bg-primary rounded-full"></div>
