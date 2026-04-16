@@ -9,12 +9,13 @@ const Contact = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
           Get In <span className="text-gradient">Touch</span>
         </h2>
-        
+
         <p className="text-lg text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-          I'm currently looking for new opportunities and exciting projects. 
-          Whether you have a question or just want to say hi, feel free to reach out!
+          I'm currently looking for new opportunities and exciting projects.
+          Whether you have a question or just want to say hi, feel free to reach
+          out!
         </p>
-        
+
         <Card className="p-8 bg-card border-border card-glow">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="flex flex-col items-center text-center space-y-3">
@@ -26,10 +27,10 @@ const Contact = () => {
                 href="mailto:shanbel@example.com"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                shanbel@example.com
+                shambel5110@gmail.com
               </a>
             </div>
-            
+
             <div className="flex flex-col items-center text-center space-y-3">
               <div className="p-4 rounded-full bg-primary/10">
                 <Phone className="w-6 h-6 text-primary" />
@@ -39,21 +40,19 @@ const Contact = () => {
                 href="tel:+251912345678"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                +251 912 345 678
+                +251 962 585 655
               </a>
             </div>
-            
+
             <div className="flex flex-col items-center text-center space-y-3">
               <div className="p-4 rounded-full bg-primary/10">
                 <MapPin className="w-6 h-6 text-primary" />
               </div>
               <h3 className="font-semibold">Location</h3>
-              <p className="text-muted-foreground">
-                Debre Berhan, Ethiopia
-              </p>
+              <p className="text-muted-foreground">Debre Berhan, Ethiopia</p>
             </div>
           </div>
-          
+
           <div className="mt-8 text-center">
             <Button size="lg" className="gap-2">
               <Mail className="w-5 h-5" />
